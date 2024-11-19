@@ -1,0 +1,5 @@
+n = int(input().strip())
+arr = list(map(int, input().split()))
+e = arr.pop(0)
+arr.append(e)
+print(' '.join(map(str, arr)))
